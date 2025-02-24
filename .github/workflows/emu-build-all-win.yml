@@ -34,21 +34,22 @@ jobs:
       matrix:
         prj: [
             # regular api
-            "api_regular",
+            # "api_regular",
             # (experimental) api + client
             "api_experimental",
             "steamclient_experimental_stub",
             # client (experimental) + loader + extra dll + gameoverlaylib
-            "steamclient_experimental",
-            "steamclient_experimental_loader",
-            "steamclient_experimental_extra",
-            "lib_game_overlay_renderer",
+            # "steamclient_experimental",
+            # "steamclient_experimental_loader",
+            # "steamclient_experimental_extra",
+            # "lib_game_overlay_renderer",
             # tools
-            "tool_lobby_connect",
-            "tool_generate_interfaces",
+            # "tool_lobby_connect",
+            # "tool_generate_interfaces",
           ]
         arch: ["x64", "Win32"]
-        cfg: ["debug", "release"]
+        # cfg: ["debug", "release"]
+        cfg: ["release"]
 
     steps:
       # on Windows Git will auto change line ending to CRLF, not preferable
