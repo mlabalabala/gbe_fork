@@ -3492,7 +3492,7 @@ const char translationFpsCheckbox[TRANSLATION_NUMBER_OF_LANGUAGES][TRANSLATION_B
   u8"FPS",
 
 	// 3 - Simplified Chinese
-  u8"FPS",
+  u8"帧率",
 
 	// 4 - Traditional Chinese
   u8"FPS",
@@ -3780,7 +3780,7 @@ const char translationFrametimeDisplay[TRANSLATION_NUMBER_OF_LANGUAGES][TRANSLAT
   u8"FRT: ",
 
 	// 3 - Simplified Chinese
-  u8"帧时间：",
+  u8"FRT：",
 
 	// 4 - Traditional Chinese
   u8"FRT: ",
@@ -4068,7 +4068,7 @@ const char translationPlaytimeDisplay[TRANSLATION_NUMBER_OF_LANGUAGES][TRANSLATI
   u8"PLT: ",
 
 	// 3 - Simplified Chinese
-  u8"游玩时间：",
+  u8"PLT：",
 
 	// 4 - Traditional Chinese
   u8"PLT: ",
